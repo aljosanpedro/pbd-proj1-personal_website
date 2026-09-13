@@ -1,0 +1,120 @@
+  │  ~/Downloads/NEXTJS ────────────────────────────────────────────────────────────────────────────
+❯ npx create-next-app@latest                               
+Need to install the following packages:
+create-next-app@16.3.4
+Ok to proceed? (y) y
+
+✔ What is your project named? … nextproject1
+✔ Would you like to use the recommended Next.js defaults? › No, customize settings
+✔ Would you like to use TypeScript? … No / Yes
+✔ Which linter would you like to use? › ESLint
+✔ Would you like to use React Compiler? … No / Yes
+✔ Would you like to use Tailwind CSS? … No / Yes
+✔ Would you like your code inside a `src/` directory? … No / Yes
+✔ Would you like to use App Router? (recommended) … No / Yes
+✔ Would you like to customize the import alias (`@/*` by default)? … No / Yes
+✔ What import alias would you like configured? … @/*
+✔ Would you like to include AGENTS.md to guide coding agents to write up-to-date Next.js code? … No / Yes
+Creating a new Next.js app in /Users/aljo/Downloads/NEXTJS/nextproject1.
+
+Using npm.
+
+Initializing project with template: app-tw 
+
+
+Installing dependencies:
+- next
+- react
+- react-dom
+
+Installing devDependencies:
+- @tailwindcss/postcss
+- @types/node
+- @types/react
+- @types/react-dom
+- eslint
+- eslint-config-next
+- tailwindcss
+- typescript
+
+npm warn EBADENGINE Unsupported engine {
+npm warn EBADENGINE   package: 'eslint-visitor-keys@5.0.1',
+npm warn EBADENGINE   required: { node: '^20.19.0 || ^22.13.0 || >=24' },
+npm warn EBADENGINE   current: { node: 'v22.11.0', npm: '10.9.0' }
+npm warn EBADENGINE }
+npm warn deprecated eslint@9.39.5: This version is no longer supported. Please see https://eslint.org/version-support for other options.
+
+added 365 packages, and audited 366 packages in 40s
+
+147 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+Generating route types...
+✓ Types generated successfully
+
+Initialized a git repository.
+
+Success! Created nextproject1 at /Users/aljo/Downloads/NEXTJS/nextproject1
+
+npm notice
+npm notice New major version of npm available! 10.9.0 -> 12.0.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.2
+npm notice To update run: npm install -g npm@12.0.2
+npm notice
+
+  │  ~/Downloads/NEXTJS ───────────────────────────────────────────────────────────────────────────────
+  │  ~/Downloads/NEXTJS ──────────────────────────────────────────────────────────────── took 3m 5s  
+❯ cd nextproject1 
+
+  │  ~/Downloads/NEXTJS/nextproject1 │ on   main ───────────────────────────────────────────────────
+❯ npm install                  
+npm warn EBADENGINE Unsupported engine {
+npm warn EBADENGINE   package: 'eslint-visitor-keys@5.0.1',
+npm warn EBADENGINE   required: { node: '^20.19.0 || ^22.13.0 || >=24' },
+npm warn EBADENGINE   current: { node: 'v22.11.0', npm: '10.9.0' }
+npm warn EBADENGINE }
+
+up to date, audited 366 packages in 1s
+
+147 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+  │  ~/Downloads/NEXTJS/nextproject1 │ on   main ───────────────────────────────────────────────────
+❯ npm audit  
+found 0 vulnerabilities
+
+  │  ~/Downloads/NEXTJS/nextproject1 │ on   main ───────────────────────────────────────────────────
+❯ npm audit fix --force
+npm warn using --force Recommended protections disabled.
+
+up to date, audited 366 packages in 1s
+
+147 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+  │  ~/Downloads/NEXTJS/nextproject1 │ on   main ───────────────────────────────────────────────────
+❯ npm run dev          
+
+> nextproject1@0.1.0 dev
+> next dev
+
+✔ Console Ninja extension is connected to Next.js, see https://tinyurl.com/2vt8jxzw
+▲ Next.js 16.3.4 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://172.21.13.143:3000
+✓ Ready in 1761ms
+⚠ Console Ninja Turbopack support is a PRO feature, currently available to community users while in preview
+✓ Running next.config.ts took 34ms
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+
+ GET / 200 in 2.9s (next.js: 2.8s, application-code: 127ms)
