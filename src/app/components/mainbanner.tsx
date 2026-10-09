@@ -20,7 +20,7 @@ export default function MainBanner({
     // ease-in-out: transition timing function for smooth start and end
     // shadow-lg: large shadow for depth effect
     <div
-      className="sticky top-0 flex flex-col sm:flex-row z-50 w-[98%] h-auto border border-gray-300 rounded-sm backdrop-blur-sm
+      className="sticky top-0 flex flex-col sm:flex-row z-50 w-[97%] h-auto border border-gray-300 rounded-sm backdrop-blur-sm
     hover:scale-102 transition-transform duration-300 ease-in-out shadow-lg bg-white/30 ml-2 mr-3 sm:ml-3.5 sm:mr-2 md:mr-1"
     >
       {/* Left Section */}
