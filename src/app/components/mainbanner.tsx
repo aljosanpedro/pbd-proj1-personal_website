@@ -1,6 +1,12 @@
 import Image from "next/image";
 
-export default function MainBanner() {
+export default function MainBanner({
+  name,
+  title,
+}: {
+  name: string;
+  title: string;
+}) {
   return (
     // Base
     // sticky: fixed position, but scrolls with parent
@@ -42,10 +48,8 @@ export default function MainBanner() {
       {/* sm:justify-end: go to bottom (bc col) */}
       {/* sm:items-start: align items to the start (left) on small screens */}
       <div className="m-2 flex flex-col items-center w-auto sm:justify-end sm:items-start">
-        <h1 className="text-lg font-bold">
-          Alejandre Jose R. San Pedro (Aljo)
-        </h1>
-        <p className="text-sm text-blue-500">MSIT Student | Psychometrician</p>
+        <h1 className="text-lg font-bold">{name}</h1>
+        <p className="text-sm text-blue-500">{title}</p>
       </div>
     </div>
   );

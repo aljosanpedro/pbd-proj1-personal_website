@@ -28,7 +28,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        <MainBanner />
+        <MainBanner
+          name="Alejandre Jose R. San Pedro (Aljo)"
+          title="MSIT Student | Psychometrician"
+        />
         {/* page.tsx! */}
         {children}
       </body>
