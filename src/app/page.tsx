@@ -25,50 +25,57 @@ export default function Home() {
           <div className="mt-4 w-[96%] ml-2">
             <ExpandingCard
               MainIcon={Cog}
-              MainTitle="Full Stack Developer / Software Systems Expert / Computer Science Instructor / Youtube Content Creator"
+              MainTitle=""
               items={[
                 // 1st Item
                 {
                   subicon: CalendarDays,
-                  subtitle: "1996 to Present",
+                  subtitle: "Current Affiliations",
                   description: (
                     <>
-                      <p className="mt-1.5 mb-2 text-sm font-semibold text-foreground">
+                      {/* <p className="mt-1.5 mb-2 text-sm font-semibold text-foreground">
                         Senior Software Engineer with 30 years of experience
                         developing business software, ERP systems, and web
                         applications.
-                      </p>
+                      </p> */}
 
                       <p className="mt-1.5 mb-1.5 text-sm font-semibold text-foreground">
-                        Specializes in:
+                        {/* Specializes in: */}
                       </p>
                       <ul className="mt-4 space-y-2 text-sm font-semibold text-foreground">
-                        <li>• Odoo ERP Development and Customization</li>
-                        <li>• Modernizing Legacy Systems</li>
                         <li>
-                          • Fullstack Web Development using React, NextJS and
-                          PostgreSQL
+                          • Pi Gamma Mu (PGM) International Honor Society in
+                          Social Sciences
                         </li>
                         <li>
-                          • Database Design and Administration and
-                          High-Availability Systems
+                          • Psychological Association of the Philippines (PAP) -
+                          Technology and Media Psychology Special Interest Group
+                          (TMP SIG)
                         </li>
-                        <li>• Linux Server Deployment</li>
+                        <li>• Google Developer Group (GDG) Davao</li>
                       </ul>
-                      <p className="mt-4 mb-1.5 text-sm font-semibold text-foreground">
+                      {/* <p className="mt-4 mb-1.5 text-sm font-semibold text-foreground">
                         Helps businesses modernize their operations, automate
                         workflows, and build scalable software solutions.
-                      </p>
+                      </p> */}
                     </>
                   ),
                 },
                 // 2nd Item
                 {
-                  subicon: Presentation,
-                  subtitle: "1987 to Present",
+                  subicon: CalendarDays,
+                  subtitle: "Student Organizations",
                   description: (
                     <>
-                      <p className="mt-1.5 mb-1.5 text-sm font-semibold text-foreground">
+                      <ul className="mt-4 space-y-2 text-sm font-semibold text-foreground">
+                        <li>• DevelUP Diliman (Game Development, VP)</li>
+                        <li>• COPE UP (Mental Health)</li>
+                        <li>
+                          • College of Social Sciences and Philosophy (CSSP)
+                          Student Council (SC) (Dept. Rep.)
+                        </li>
+                      </ul>
+                      {/* <p className="mt-1.5 mb-1.5 text-sm font-semibold text-foreground">
                         Computer Science Instructor, Ateneo de Davao University,
                         Davao City, Philippines
                       </p>
@@ -86,17 +93,22 @@ export default function Home() {
                         Mentors students, fostering a collaborative learning
                         environment that promotes innovation and knowledge
                         sharing on various projects with industry partners.
-                      </p>
+                      </p> */}
                     </>
                   ),
                 },
                 // 3rd Item
                 {
                   subicon: CalendarDays,
-                  subtitle: "2021 to Present",
+                  subtitle: "Academic Honors",
                   description: (
                     <>
-                      <p className="mt-1.5 mb-1.5 text-sm font-semibold text-foreground">
+                      <ul className="mt-4 space-y-2 text-sm font-semibold text-foreground">
+                        <li>• Magna Cum Laude (UPD)</li>
+                        <li>• Merit Scholar (DOST)</li>
+                        <li>• High Honors (PSHS-DRC/SMC)</li>
+                      </ul>
+                      {/* <p className="mt-1.5 mb-1.5 text-sm font-semibold text-foreground">
                         Youtube Content Creator
                       </p>
                       <p className="mt-4 mb-1.5 text-sm font-semibold text-foreground">
@@ -118,7 +130,7 @@ export default function Home() {
                           <Play className="size-4" aria-hidden />
                           <span>www.youtube.com/@roytek7667/playlists</span>
                         </a>
-                      </p>
+                      </p> */}
                     </>
                   ),
                 },
@@ -137,21 +149,7 @@ export default function Home() {
                 {
                   subicon: CalendarDays,
                   subtitle:
-                    "1996 - MS in Computer Science Major in Artificial Intelligence",
-                  description: (
-                    <>
-                      <p className="mt-1.5 mb-1.5 text-sm font-semibold text-foreground">
-                        Ateneo de Manila University
-                      </p>
-                      <p className="mt-1.5 mb-1.5 text-sm font-semibold text-foreground">
-                        Quezon City, Philippines
-                      </p>
-                    </>
-                  ),
-                },
-                {
-                  subicon: CalendarDays,
-                  subtitle: "1987 - Bachelor in Management Engineering",
+                    "Ongoing - Master of Science in Information Technology",
                   description: (
                     <>
                       <p className="mt-1.5 mb-1.5 text-sm font-semibold text-foreground">
@@ -159,6 +157,20 @@ export default function Home() {
                       </p>
                       <p className="mt-1.5 mb-1.5 text-sm font-semibold text-foreground">
                         Davao City, Philippines
+                      </p>
+                    </>
+                  ),
+                },
+                {
+                  subicon: CalendarDays,
+                  subtitle: "2025 - Bachelor of Science in Psychology",
+                  description: (
+                    <>
+                      <p className="mt-1.5 mb-1.5 text-sm font-semibold text-foreground">
+                        University of the Philippines Diliman
+                      </p>
+                      <p className="mt-1.5 mb-1.5 text-sm font-semibold text-foreground">
+                        Quezon City, Philippines
                       </p>
                     </>
                   ),

@@ -1,4 +1,4 @@
-import { BriefcaseBusiness } from "lucide-react";
+import { BriefcaseBusiness, LucideGraduationCap } from "lucide-react";
 
 export default function MyServices() {
   return (
@@ -8,24 +8,24 @@ export default function MyServices() {
           aria-hidden
           className="grid size-8 place-items-center rounded-xl bg-brand text-primary-foreground"
         >
-          <BriefcaseBusiness className="size-5 text-blue-400" />
+          <LucideGraduationCap className="size-5 text-blue-400" />
         </span>
-        <h3 className="text-sm font-semibold text-foreground">My Services</h3>
+        <h3 className="text-sm font-semibold text-foreground">
+          Computing Courses Taken
+        </h3>
       </div>
 
       <ul className="mt-4 space-y-2 text-sm font-semibold text-foreground">
-        <li>✔ Odoo Development and Customization</li>
-        <li>✔ Odoo Installation (On-Premise and Cloud)</li>
-        <li>✔ Legacy System Modernization (C#, Delphi to Web)</li>
-        <li>✔ Fullstack Web Development (React, NextJS)</li>
-        <li>✔ Database Design and Optimization</li>
-        <li>✔ API Development and Integration</li>
-        <li>✔ ERP Implementation for Medium and Small Businesses</li>
-        <li>
-          ✔ Technical Support & Training for Software Systems, CRM,Automation &
-          AI assisted Work Tools
-        </li>
-        <li>✔ Linux Server Deployment</li>
+        <li>• Introduction to Computing</li>
+        <li>• Computer Programming</li>
+        <li>• Data Structures and Algorithms</li>
+        <li>• Web Systems and Technologies</li>
+        <li>• Computer Networking</li>
+        <li>• Enterprise Networking</li>
+        <li>• Information Management</li>
+        <li>• Information Security Management</li>
+        <li>• Seminars in Cybersecurity</li>
+        <li>• Data Science and Analytics</li>
       </ul>
     </div>
   );
