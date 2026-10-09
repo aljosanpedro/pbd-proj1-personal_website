@@ -2,10 +2,21 @@ import Image from "next/image";
 
 export default function MainBanner() {
   return (
+    // Base
     // sticky: fixed position, but scrolls with parent
     // sm: flex-row for mobile
     // ml: margin-left (m: all sides)
-    <div className="sticky top-0 flex flex-col sm:flex-row z-50 w-[98%] h-auto border border-gray-300 rounded-sm ml-2 backdrop-blur-sm">
+    // bg-white/30: white background with 30% opacity
+    // Hover
+    // hover:scale-102: slightly enlarges on hover
+    // transition-transform: smooth transition for transform properties
+    // duration-300: transition duration of 300ms
+    // ease-in-out: transition timing function for smooth start and end
+    // shadow-lg: large shadow for depth effect
+    <div
+      className="sticky top-0 flex flex-col sm:flex-row z-50 w-[98%] h-auto border border-gray-300 rounded-sm backdrop-blur-sm
+    hover:scale-102 transition-transform duration-300 ease-in-out shadow-lg bg-white/30 ml-2 mr-3 sm:ml-3.5 sm:mr-2 md:mr-1"
+    >
       {/* Left Section */}
       {/* treated as row bc only 1 item */}
       {/* m-2: 8 pixels (refer to cheatsheet/daigler) */}
